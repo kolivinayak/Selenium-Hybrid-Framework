@@ -22,7 +22,7 @@ public class LoginPage {
     @FindBy(xpath = "//*[@id='mdLeftSidebar']//a[text()='Log Off']")  WebElement LogoutLink;
     @FindBy(xpath = "//*[text()='Account Logout']")  WebElement LogoutText1;
     @FindBy(xpath = "//*[text()='You have been logged off your account. It is now safe to leave the computer.']")  WebElement LogoutTextDetails;
-    By LogoutText = new By.ByXPath(" //*[@id='bd  ']//*[text()='Account Logout']");
+    By LogoutText = new By.ByXPath("//*[@id='bd']//*[text()='Account Logout']");
 
     public void clickOnAccountLink(){
         accountLink.click();

@@ -32,11 +32,11 @@ public class LoginTest {
 
             lp.clickOnAccountLink();
 
-            String email = DataProviderFactory.getExcel().getData(0,0,0);
-            String passwd = DataProviderFactory.getExcel().getData(0,0,1);
-
-            System.out.println("email "+email+" password "+passwd);
-            
+//            String email = DataProviderFactory.getExcel().getData(0,0,0);
+//            String passwd = DataProviderFactory.getExcel().getData(0,0,1);
+//
+//            System.out.println("email "+email+" password "+passwd);
+//            
             lp.loginToApplication(DataProviderFactory.getExcel().getData(0,0,0),DataProviderFactory.getExcel().getData(0,0,1));
 //            lp.loginToApplication(email,passwd);
 

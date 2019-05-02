@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18053" started-at="2019-04-28T17:14:51Z" finished-at="2019-04-28T17:15:09Z">
+  <suite name="Default suite" duration-ms="22704" started-at="2019-05-02T07:34:35Z" finished-at="2019-05-02T07:34:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18053" started-at="2019-04-28T17:14:51Z" finished-at="2019-04-28T17:15:09Z">
-      <class name="testcases.LoginTestReport">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.LoginTestReport@2a2d45ba]" name="init" is-config="true" duration-ms="6257" started-at="2019-04-28T22:44:51Z" finished-at="2019-04-28T22:44:57Z">
+    <test name="Default test" duration-ms="22704" started-at="2019-05-02T07:34:35Z" finished-at="2019-05-02T07:34:57Z">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.LoginTest@2a2d45ba]" name="init" is-config="true" duration-ms="9330" started-at="2019-05-02T13:04:35Z" finished-at="2019-05-02T13:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="LoginTest1()[pri:0, instance:testcases.LoginTestReport@2a2d45ba]" name="LoginTest1" duration-ms="9885" started-at="2019-04-28T22:44:57Z" finished-at="2019-04-28T22:45:07Z">
+        <test-method status="PASS" signature="LoginTest1()[pri:0, instance:testcases.LoginTest@2a2d45ba]" name="LoginTest1" duration-ms="12192" started-at="2019-05-02T13:04:44Z" finished-at="2019-05-02T13:04:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest1 -->
-        <test-method status="PASS" signature="end()[pri:0, instance:testcases.LoginTestReport@2a2d45ba]" name="end" is-config="true" duration-ms="1895" started-at="2019-04-28T22:45:07Z" finished-at="2019-04-28T22:45:09Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:testcases.LoginTest@2a2d45ba]" name="end" is-config="true" duration-ms="1145" started-at="2019-05-02T13:04:56Z" finished-at="2019-05-02T13:04:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-      </class> <!-- testcases.LoginTestReport -->
+      </class> <!-- testcases.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
